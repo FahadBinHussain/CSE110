@@ -1,0 +1,12 @@
+# Program to convert seconds to hours, minutes and seconds
+
+# Read the number of seconds from the user
+seconds = int(input("Enter the number of seconds: "))
+
+# Calculate the number of hours, minutes and seconds
+hours = seconds // 3600
+minutes = (seconds % 3600) // 60
+seconds = (seconds % 3600) % 60
+
+# Print the result
+print(f"Hours: {hours} Minutes: {minutes} Seconds: {seconds}")

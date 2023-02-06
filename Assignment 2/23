@@ -1,0 +1,20 @@
+def convert_temp(deg_f):
+    deg_c = (deg_f - 32) * 0.56
+    return deg_c
+
+def determine_season(deg_c):
+    if deg_c < 20:
+        return "Winter"
+    elif deg_c >= 20 and deg_c <= 25:
+        return "Autumn"
+    elif deg_c > 25 and deg_c < 30:
+        return "Spring"
+    elif deg_c >= 30:
+        return "Summer"
+
+temp_f = int(input("Enter the temperature in degrees Fahrenheit: "))
+temp_c = convert_temp(temp_f)
+season = determine_season(temp_c)
+
+print("%.2f degrees C" % temp_c)
+print(season)

@@ -1,0 +1,12 @@
+# Program to determine if a number is a multiple of 2 or 5 but not both
+
+# Read the number from the user
+num = int(input("Enter a number: "))
+
+# Check if the number is a multiple of 2 or 5 but not both
+if (num % 2 == 0) and (num % 5 == 0):
+  print("Multiple of 2 and 5 both")
+elif (num % 2 == 0) or (num % 5 == 0):
+  print(num)
+else:
+  print("Not a multiple we want")

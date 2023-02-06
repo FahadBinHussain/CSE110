@@ -1,0 +1,19 @@
+canvases = int(input("Enter number of canvases: "))
+paint_tubes = int(input("Enter number of paint tubes: "))
+
+total_amount = canvases * 120 + paint_tubes * 75
+
+discount = 0
+if total_amount >= 1000:
+    discount = 150
+elif total_amount >= 750:
+    discount = 50
+elif total_amount >= 500:
+    discount = 20
+elif total_amount >= 300:
+    discount = 10
+
+total_amount = total_amount - discount
+
+print("Previous total: ", canvases * 120 + paint_tubes * 75)
+print("New total after discount: ", total_amount)

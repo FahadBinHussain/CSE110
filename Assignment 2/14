@@ -1,0 +1,11 @@
+distance = float(input("Enter the distance in meters: "))
+time = float(input("Enter the time in seconds: "))
+
+velocity = (distance / 1000) / (time / 3600)
+
+if velocity < 60:
+    print("Too slow. Needs more changes.")
+elif velocity >= 60 and velocity <= 90:
+    print("Velocity is okay. The car is ready!")
+else:
+    print("Too fast. Only a few changes should suffice.")

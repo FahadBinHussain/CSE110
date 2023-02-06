@@ -1,0 +1,19 @@
+# Program to read two numbers from the user and print their sum, product, and difference
+
+# Read two numbers from the user
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter the second number: "))
+
+# Calculate the sum of the two numbers
+sum = num1 + num2
+
+# Calculate the product of the two numbers
+product = num1 * num2
+
+# Calculate the difference between the two numbers
+difference = num1 - num2
+
+# Print the results
+print("Sum: ", sum)
+print("Product: ", product)
+print("Difference: ", difference)

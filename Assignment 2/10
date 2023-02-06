@@ -1,0 +1,12 @@
+hours = int(input("Enter hours worked: "))
+
+if hours < 0:
+    print("Hour cannot be negative")
+elif hours > 168:
+    print("Impossible to work more than 168 hours weekly")
+else:
+    if hours <= 40:
+        salary = hours * 200
+    else:
+        salary = 8000 + (hours - 40) * 300
+    print("Weekly salary:", salary)

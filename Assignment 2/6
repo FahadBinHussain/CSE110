@@ -1,0 +1,10 @@
+# Program to determine if a number is a multiple of 2 or 5
+
+# Read the number from the user
+num = int(input("Enter a number: "))
+
+# Check if the number is a multiple of 2 or 5
+if (num % 2 == 0) or (num % 5 == 0):
+  print(num)
+else:
+  print("Not a multiple of 2 or 5")

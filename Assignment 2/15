@@ -1,0 +1,15 @@
+cgpa = float(input("Enter the CGPA: "))
+credits_completed = int(input("Enter the number of credits completed: "))
+
+if credits_completed < 30:
+  print("The student is not eligible for a waiver")
+elif cgpa >= 4.00:
+  print("The student is eligible for a 100 percent waiver")
+elif cgpa >= 3.95:
+  print("The student is eligible for a 75 percent waiver")
+elif cgpa >= 3.90:
+  print("The student is eligible for a 50 percent waiver")
+elif cgpa >= 3.80:
+  print("The student is eligible for a 25 percent waiver")
+else:
+  print("The student is not eligible for a waiver")
