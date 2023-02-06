@@ -1,0 +1,7 @@
+chocolates = int(input("Enter the number of chocolates: "))
+
+each_friend = chocolates // 3
+remaining = chocolates % 3
+
+print("Each friend will receive", each_friend, "chocolates")
+print("The number of remaining chocolates is", remaining)

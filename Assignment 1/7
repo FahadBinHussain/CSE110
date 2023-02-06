@@ -1,0 +1,6 @@
+A = int(input("Enter value of A: "))
+B = int(input("Enter value of B: "))
+C = int(input("Enter value of C: "))
+D = float(input("Enter value of D: "))
+result = pow(A,C) + B*A - D/3
+print("Result of formula (A^C + B*A - D/3): ", int(result))

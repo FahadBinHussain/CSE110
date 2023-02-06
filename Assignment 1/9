@@ -1,0 +1,6 @@
+m = input("Enter the value of M: ")
+n = input("Enter the value of N: ")
+
+result = n + m
+
+print("The result is", result)

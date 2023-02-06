@@ -1,0 +1,5 @@
+user_input = input("Enter a line: ")
+
+first_char = user_input[0]
+
+print("The first character is", first_char)

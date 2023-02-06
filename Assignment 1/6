@@ -1,0 +1,8 @@
+total_weight = int(input("Enter the total weight of the shipment: "))
+
+max_load = total_weight // 4
+
+if total_weight % 4 != 0:
+    print("The boat can only carry", max_load * 4, "units of the shipment as the weight can not be equally distributed.")
+else:
+    print("The boat can carry the entire shipment of", total_weight, "units.")
