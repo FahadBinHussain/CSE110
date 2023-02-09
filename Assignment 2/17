@@ -1,16 +1,18 @@
-var1 = True
-var2 = False
-var3 = True
-var4 = False
-var5 = True
-var6 = False
-result1 = True
-result2 = False
-result3 = True
-result4 = True
-result5 = False
-result6 = True
-result7 = False
-result8 = True
-result9 = False
-result10 = False
+| Line | var1 | var2 | var3 | var4 | var5 | var6 | result1 | result2 | result3 | result4 | result5 | result6 | result7 | result8 | result9 | result10 |
+|------|------|------|------|------|------|------|---------|---------|---------|---------|---------|---------|---------|---------|---------|----------|
+| 1    | F    | F    | F    | F    | F    | F    |         |         |         |         |         |         |         |         |         |          |
+| 2    |      |      |      |      |      |      | F       |         |         |         |         |         |         |         |         |          |
+| 3    |      |      |      |      |      |      | F       | F       |         |         |         |         |         |         |         |          |
+| 4    |      |      |      |      |      |      | F       | F       | F       |         |         |         |         |         |         |          |
+| 5    |      |      |      |      |      |      | F       | F       | F       | F       |         |         |         |         |         |          |
+| 6    |      |      |      |      |      |      | F       | F       | F       | F       | F       |         |         |         |         |          |
+| 7    |      |      |      |      |      |      | F       | F       | F       | F       | F       | F       |         |         |         |          |
+| 8    |      |      |      |      |      |      | F       | F       | F       | F       | F       | F       | F       |         |         |          |
+| 9    |      |      |      |      |      |      | F       | F       | F       | F       | F       | F       | F       | F       |         |          |
+| 10   |      |      |      |      |      |      | F       | F       | F       | F       | F       | F       | F       | F       | F       |          |
+| 11   |      |      |      |      |      |      | F       | F       | F       | F       | F       | F       | F       | F       | F       |          |
+| 12   | T    |      |      |      |      |      |         |         |         |         |         |         |         |         |         |          |
+| 13   | T    | F    |      |      |      |      |         |         |         |         |         |         |         |         |         |          |
+| 14   | T    | F    | T    |      |      |      |         |         |         |         |         |         |         |         |         |          |
+| 15   | T    | F    | T    | F    |      |      |         |         |         |         |         |         |         |         |         |          |
+| 16   | T    | F    | T    | F    | T    |
