@@ -1,0 +1,5 @@
+counter = 24
+while counter >= -6:
+    print(counter, end=', ')
+    counter -= 6
+print()

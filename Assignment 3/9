@@ -1,0 +1,13 @@
+# initialize sum and prompt user for first number
+total = 0
+num1 = int(input("Enter the first number: "))
+
+# print first number
+print(num1)
+
+# loop through the remaining 4 numbers and add them to the sum
+for i in range(2, 6):
+    num = int(input("Enter number {}: ".format(i)))
+    total += num1 + num
+    num1 += num
+    print(total)
