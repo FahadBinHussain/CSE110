@@ -1,5 +1,8 @@
-counter = 18
-while counter >= -63:
-    print(counter, end=', ')
-    counter = -counter if counter < 0 else counter + 9
-print()
+for i in range(18, 64, 9):
+    if i % 2 != 0:
+        print(f"-{i}", end="")
+    else:
+        print(f"{i}", end="")
+    if i <= 54:
+        print(", ", end="")
+
