@@ -1,5 +1,5 @@
 run = """
-python3 Assignment3/1a.py
+python3 a3/10.py
 """
 
 # The primary language of the repl. There can be others, though!
