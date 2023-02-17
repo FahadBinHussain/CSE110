@@ -33,5 +33,8 @@ while divisor > 0:
     digit = n // divisor
     n %= divisor
     divisor //= 10
-    print(digit, end=' ')
-print(n)
+    if divisor != 0:
+      print(digit, end=', ')
+    else:
+      print(digit, end='')
+
