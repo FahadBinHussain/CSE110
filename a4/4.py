@@ -5,10 +5,12 @@
 # If the input string already ends with "est", then your program should print the same input string as an output.
 
 user = input("Enter a word: ")
-if len(user) < 4 or user[-3:] == "est":
+if user[-3:] == "est":
     print(user)
 elif user[-2:] == "er":
     print(user[:-2] + "est")
+elif len(user) < 4:
+    print(user)
 elif len(user) > 3:
     print(user + "er")
 
