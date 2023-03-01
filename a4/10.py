@@ -1,15 +1,38 @@
-user_input = input("Enter two strings separated by a comma and a space: ")
-s1, s2 = user_input.split(", ")
+input_str = input("Enter two strings separated by a comma and a space: ")
 
-mixed_string = ""
-i = 0
-j = 0
+# find the index of the comma and space
+comma_space_index = None
+for i in range(len(input_str)):
+    if input_str[i] == "," and input_str[i+1] == " ":
+        comma_space_index = i
+        break
 
-while i < len(s1) and j < len(s2):
-  mixed_string += s1[i] + s2[j]
-  i += 1
-  j += 1
+# extract the two input strings
+input_str1 = ""
+for i in range(comma_space_index):
+    input_str1 += input_str[i]
 
-mixed_string += s1[i:] + s2[j:]
+input_str2 = ""
+for i in range(comma_space_index + 2, len(input_str)):
+    input_str2 += input_str[i]
 
-print(mixed_string)
+# initialize an empty string to store the mixed string
+mixed_str = ""
+
+# determine the length of the shorter input string
+shorter_len = len(input_str1)
+if len(input_str2) < shorter_len:
+    shorter_len = len(input_str2)
+
+# loop through the input strings
+for i in range(shorter_len):
+    mixed_str += input_str1[i]
+    mixed_str += input_str2[i]
+
+# add any leftover characters to the mixed string
+if len(input_str1) > shorter_len:
+    mixed_str += input_str1[shorter_len:]
+if len(input_str2) > shorter_len:
+    mixed_str += input_str2[shorter_len:]
+
+print(mixed_str)
