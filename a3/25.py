@@ -7,7 +7,7 @@ b = 1
 
 # Loop through all Fibonacci numbers up to N
 while a <= N:
-    print(a)
+    print(a, end=" ")
     c = a + b
     a = b
     b = c
