@@ -1,3 +1,17 @@
+# inpu1 = input()
+# inpu2 = input()
+
+# outpu = ""
+
+# for i in inpu1:
+#   if i != inpu2:
+#     outpu += i
+    
+# if len(inpu1) > 3 and outpu == inpu1:
+#   print(outpu[1:len(outpu) - 1])
+# else:
+#   print(outpu)
+
 # Get input from user
 string = input("Enter a string: ")
 letter = input("Enter a letter: ")

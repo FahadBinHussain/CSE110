@@ -1,3 +1,16 @@
+# inpu1 = input()
+# inpu2 = input()
+
+# outpu = ""
+# inpu1 += inpu2
+
+# for i in inpu1:
+#   if i != inpu2:
+#     outpu += i
+#   else:
+#     print(outpu)
+#     outpu = ""
+
 # Taking inputs from user
 string = input("Enter a string: ")
 splitter = input("Enter the character to split on: ")
