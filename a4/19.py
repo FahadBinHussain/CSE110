@@ -27,6 +27,7 @@ for i in inpu:
       up_inpu = chr(ord(i) - 32)
       outpu += up_inpu
       prev = "u"
+      
   else:
     outpu += i
   
