@@ -1,4 +1,4 @@
-user_input = input("Enter a string of 7 comma-separated numbers: ")
+user_input = input()
 user_input += "," 
 user_list = []
 str = ""
