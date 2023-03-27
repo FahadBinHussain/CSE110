@@ -1,9 +1,9 @@
-given_list = ["hey", "there", "", "what's", "", "up", "", "?"]
+list = ["hey", "there", "", "what's", "", "up", "", "?"]
 output = []
 
-for element in given_list:
+for element in list:
     if element != "":
         output.append(element)
 
-print(f"Original List: {given_list}")
+print(f"Original List: {list}")
 print(f"Modified List: {output}")
