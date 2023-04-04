@@ -1,4 +1,4 @@
-tuple1 = ('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h')
+tuple1 = (10, 20, 30, 40, 50, 60)
 list1 = []
 
 for element in tuple1:
@@ -9,4 +9,4 @@ final_list = []
 for i in range(len(list1)-1, -1, -1):
     final_list.append(list1[i])
 
-print(final_list)
+print(tuple(final_list))
