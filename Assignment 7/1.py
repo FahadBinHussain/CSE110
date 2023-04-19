@@ -4,5 +4,4 @@ def even_checker(x):
     else:
         print('odd!!')
     
-    
 even_checker(int(input()))
