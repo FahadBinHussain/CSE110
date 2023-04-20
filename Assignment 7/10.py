@@ -5,4 +5,4 @@ def make_square(start):
         dictionary[i]=i**2
     return dictionary
     
-print(make_square((5,9)))
+print(make_square((1,3)))

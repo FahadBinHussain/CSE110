@@ -7,4 +7,4 @@ def show_palindrome(x):
     
     return result
     
-print(show_palindrome(int(input('enter a number'))))
+print(show_palindrome(5))

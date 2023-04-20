@@ -7,4 +7,4 @@ def rem_duplicate(tupl):
     a_tuple=tuple(list)
     print(a_tuple)
     
-rem_duplicate((1,1,1,2,3,4,5,6,6,6,6,4,0,0,0))
+rem_duplicate(("Hi", 1, 2, 3, 3, "Hi",'a', 'a', [1,2]))

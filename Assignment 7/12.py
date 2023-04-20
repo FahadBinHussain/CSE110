@@ -6,8 +6,9 @@ def function_name(list):
             new_list.append(i)
         else:
             removed+=1
-    print(new_list)
     print('Removed:',removed)
+    print(new_list)
+    
         
     
-function_name([int(element) for element in input("please enter a list:").split(",")])
+function_name([1, 2, 3, 3, 3, 3, 4, 5, 8, 8])

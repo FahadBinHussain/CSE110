@@ -9,5 +9,5 @@ def area_circumference_generator(x):
 print(area_circumference_generator(float(input('enter radius'))))
 a_tuple=(area,circumference)
 a,b=a_tuple
-print('Area of the circle is ',a,end=' ')
-print('and circumference is ',circumference)
+print('Area of the circle is',a,end=' ')
+print('and circumference is',circumference)

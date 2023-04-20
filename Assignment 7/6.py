@@ -1,10 +1,8 @@
-def time(x):
-    
-    year=x//365
-    month=(x%365)//30
-    days=(x%365)%30
-    print(year,'years ',end=',')
-    print(month,' months and ',end=' ')
-    print(days,' days')
-    
-time(int(input('enter days ')))
+def calculate_time(days):
+    years = days // 365
+    months = (days % 365) // 30
+    remaining_days = (days % 365) % 30
+    print(years, "years,", months, "months and", remaining_days, "days")
+
+days = int(input("Enter number of days: "))
+calculate_time(days)

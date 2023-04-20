@@ -10,4 +10,4 @@ def foo_moo(x):
         result='Boo'
     return result
     
-print(foo_moo(int(input('enter a number'))))
+print(foo_moo(5))

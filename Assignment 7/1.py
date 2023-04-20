@@ -1,7 +1,7 @@
 def even_checker(x):
     if x%2==0:
-        print('even!!')
+        print('Even!!')
     else:
-        print('odd!!')
+        print('Odd!!')
     
-even_checker(int(input()))
+even_checker(5)
